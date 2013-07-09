@@ -1,0 +1,18 @@
+en:
+  cpanel:
+    menu:
+      cpanel: "Cpanel"
+      root_path: "Dashboard"
+      site_configs: "Settings"
+      users: "Users"
+      sections: "Sections"
+      node: "Nodes"
+      wiki: "Wiki"
+      topics: "Topics"
+      replies: "Replies"
+      photos: "Photos"
+      notes: "Notes"
+      comments: "Comments"
+      site_nodes: "Site Nodes"
+      sites: "Sites"
+      locations: "Locations"

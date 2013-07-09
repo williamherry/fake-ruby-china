@@ -19,6 +19,10 @@ html {
   background: #eee image-url('bg.png') bottom left repeat;
 }
 
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .navbar-fixed-top {
   .navbar-inner {
     .container {
@@ -31,5 +35,8 @@ html {
         }
       }
     }
+  }
+  .brand {
+    width: 60px;
   }
 }

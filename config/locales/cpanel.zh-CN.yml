@@ -1,0 +1,18 @@
+zh-CN:
+  cpanel:
+    menu:
+      cpanel: "控制台"
+      root_path: "概况"
+      site_configs: "设置"
+      users: "用户"
+      sections: "分类"
+      node: "节点"
+      wiki: "Wiki"
+      topics: "帖子"
+      replies: "回复"
+      photos: "图片"
+      notes: "记事本"
+      comments: "评论"
+      site_nodes: "酷站类别"
+      sites: "酷站"
+      locations: "城市"
