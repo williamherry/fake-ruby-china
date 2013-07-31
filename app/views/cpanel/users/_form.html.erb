@@ -1,0 +1,12 @@
+<%= simple_form_for([:cpanel, @user], html: {class: "horizontal"}) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-input">
+    <%= f.input :username %><br>
+    <%= f.input :email %><br>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, class: "btn-primary" %>
+  </div>
+<% end %>

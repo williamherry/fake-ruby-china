@@ -9,6 +9,7 @@ FakeRubyChina::Application.routes.draw do
 
   namespace :cpanel do
     root "home#index"
+    resources :users
     resources :sections
     resources :nodes
   end
