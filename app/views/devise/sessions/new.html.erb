@@ -1,0 +1,25 @@
+<div class="content clearfix">
+  <div class="box well span8 pull-left">
+
+    <%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), html: {class: "form-horizontal"}) do |f| %>
+      <%= f.error_notification %>
+      <fieldset>
+        <legend><%= t("users.register_user")%></legend>
+        <div class="form-inputs">
+          <%= f.input :username, :required => false, :autofocus => true %>
+          <%= f.input :password, :required => false %>
+          <%= f.input :remember_me, :as => :boolean if devise_mapping.rememberable? %>
+        </div>
+
+        <div class="form-actions">
+          <%= f.button :submit, "Sign in" %>
+        </div>
+      </fieldset>
+    <% end %>
+  </div>
+
+  <div class="well span3 pull-right">
+    <%= render "devise/shared/links" %>
+  </div>
+
+</div>
