@@ -1,11 +1,11 @@
-class Cpanel::UsersController < ApplicationController
+class Cpanel::UsersController < Cpanel::ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   # GET /users
   # GET /users.json
   def index
     @users = User.all
-    add_breadcrumb "User", cpanel_users_path
+    drop_breadcrumb "User", cpanel_users_path
   end
 
   # GET /users/1

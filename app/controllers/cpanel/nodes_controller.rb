@@ -5,6 +5,7 @@ class Cpanel::NodesController < Cpanel::ApplicationController
   # GET /nodes.json
   def index
     @nodes = Node.all
+    drop_breadcrumb "Node", cpanel_nodes_path
   end
 
   # GET /nodes/1

@@ -28,8 +28,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'devise'
-gem 'breadcrumbs_on_rails'
+gem 'crummy', "~> 1.7.2"
 gem 'simple_form', "~> 3.0.0.rc"
+gem 'bootstrap_helper'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

@@ -5,6 +5,7 @@ class Cpanel::SectionsController < Cpanel::ApplicationController
   # GET /sections.json
   def index
     @sections = Section.all
+    drop_breadcrumb "Section", cpanel_sections_path
   end
 
   # GET /sections/1
