@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @node.name %>
+</p>
+
+<p>
+  <strong>Summary:</strong>
+  <%= @node.summary %>
+</p>
+
+<p>
+  <strong>Section:</strong>
+  <%= @node.section_id %>
+</p>
+
+<%= link_to 'Edit', edit_cpanel_node_path(@node) %> |
+<%= link_to 'Back', cpanel_nodes_path %>
