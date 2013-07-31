@@ -1,3 +1,6 @@
 zh-CN:
   common:
     search: "搜索"
+    sign_up: "注册"
+    sign_in: "登录"
+    sign_out: "退出"

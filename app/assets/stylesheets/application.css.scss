@@ -24,6 +24,8 @@ body {
 }
 
 .navbar-fixed-top {
+  position: static;
+  margin-bottom: 20px;
   .navbar-inner {
     .container {
       h3 {
@@ -32,6 +34,14 @@ body {
           width: 123px;
           height: 29px;
           margin-top: 3px;
+        }
+      }
+      #user-nav {
+        line-height: 39px;
+        .dropdown-menu {
+          a {
+            color: black;
+          }
         }
       }
     }

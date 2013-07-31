@@ -1,8 +1,7 @@
 zh-CN:
-  common:
-    search: "搜索"
   menu:
     topics: "主题"
     wiki: "Wiki"
     sites: "酷站"
     users: "会员"
+    my_home_page: "我的主页"
