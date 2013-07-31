@@ -1,0 +1,8 @@
+zh-CN:
+  activerecord:
+    errors:
+      models:
+        section:
+          attributes:
+            name:
+              taken: "已经被使用"

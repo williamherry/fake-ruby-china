@@ -30,6 +30,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'devise'
 gem 'breadcrumbs_on_rails'
+gem 'simple_form'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

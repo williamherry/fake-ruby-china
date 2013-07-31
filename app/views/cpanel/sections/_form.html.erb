@@ -1,0 +1,11 @@
+<%= simple_form_for([:cpanel, @section]) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-input">
+    <%= f.input :name %><br />
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, class: 'btn-primary' %>
+  </div>
+<% end %>
