@@ -70,6 +70,6 @@ class Cpanel::TopicsController < Cpanel::ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def topic_params
-      params.require(:topic).permit(:title, :content, :user_id)
+      params.require(:topic).permit(:title, :content, :user_id, :node_id)
     end
 end
