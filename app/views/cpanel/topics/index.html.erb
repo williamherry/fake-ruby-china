@@ -1,0 +1,31 @@
+<h1>Listing topics</h1>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Content</th>
+      <th>User</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @topics.each do |topic| %>
+      <tr>
+        <td><%= topic.title %></td>
+        <td><%= topic.content %></td>
+        <td><%= topic.user.try(:username) %></td>
+        <td><%= link_to 'Show', [:cpanel, topic] %></td>
+        <td><%= link_to 'Edit', edit_cpanel_topic_path(topic) %></td>
+        <td><%= link_to 'Destroy', [:cpanel, topic], method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Topic', new_cpanel_topic_path %>

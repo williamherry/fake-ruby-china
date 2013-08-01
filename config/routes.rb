@@ -13,6 +13,7 @@ FakeRubyChina::Application.routes.draw do
     resources :sections
     resources :nodes
     resources :wikis
+    resources :topics
   end
 
   # Example of regular route:
