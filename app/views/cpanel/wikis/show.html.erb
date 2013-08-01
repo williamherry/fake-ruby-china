@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @wiki.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @wiki.content %>
+</p>
+
+<%= link_to 'Edit', edit_cpanel_wiki_path(@wiki) %> |
+<%= link_to 'Back', cpanel_wikis_path %>
