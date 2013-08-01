@@ -6,6 +6,7 @@ FakeRubyChina::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'home#index'
+  resources :topics
 
   namespace :cpanel do
     root "home#index"
